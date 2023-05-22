@@ -1,1 +1,44 @@
-p {}
+html{
+    background-image: url("it.jpg");
+    background-size: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
+.class_h{
+    color: orange;
+    line-height: 2em;
+    background-color: purple;
+    text-align: center;
+    }
+
+.class_text{
+    color: yellow;
+    font-family: Verdana;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 2em;
+    text-align: center;
+    -webkit-text-stroke: 1.5px black;
+    }
+
+.class_text_1{
+    color: red;
+    font-family: Helvetica;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 2em;
+    text-align: center;
+    -webkit-text-stroke: 1.5px black;
+    }
+
+.class_text_2{
+    color: blue;
+    font-family: Helvetica;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 2em;
+    -webkit-text-stroke: 1.5px black;
+    text-align: center;
+    }
