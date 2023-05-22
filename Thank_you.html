@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thank_you</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="class_h">СПАСИБО!</h1>
+  <script>
+    urlParams = new URLSearchParams(window.location.search);
+    params = {};
+
+    urlParams.forEach((p, key) => {
+    params[key] = p;
+    });
+
+    document.write(params.login, ", спасибо за заявку, специалист свяжется с Вами!", '</br>')
+
+    document.write("Специалист свяжется с Вами в ближайшее время по телефону: ", params.phone, ".", '</br>')
+  </script>
+
+</body>
+</html>
